@@ -8,5 +8,5 @@ COPY Aritmatika.class /app
 #RUN javac -version
 #run app
 #CMD ["/usr/bin/javac","Aritmatika.java"]
-#ENTRYPOINT ["javac","Aritmatika.java"]
+ENTRYPOINT ["javac","Aritmatika.java"]
 ENTRYPOINT ["java","Aritmatika"]
