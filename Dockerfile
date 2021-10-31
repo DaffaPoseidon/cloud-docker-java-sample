@@ -8,3 +8,5 @@ RUN java -version
 RUN javac -version
 #run app
 #CMD ["/usr/bin/javac","Aritmatika.java"]
+ENTRYPOINT["javac","/app/Aritmatika.java"]
+ENTRYPOINT["java","/app/Aritmatika"]
