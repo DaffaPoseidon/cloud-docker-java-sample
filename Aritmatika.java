@@ -2,7 +2,14 @@ import java.util.Scanner;
 
 public class Aritmatika {
     public static void main(String[] args) {
-        System.out.println("Hello docker. :)");
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input nilai A: ");
+        double val = in.nextDouble();
+        System.out.print("Input nilai B: ");
+        double val2 = in.nextDouble();
+        System.out.print("Pilih operator(* / + -): ");
+        char op = in.next().charAt(0);
+        operator(op,val,val2);
     }
 
     static void operator(char operator, double val, double val2) {
