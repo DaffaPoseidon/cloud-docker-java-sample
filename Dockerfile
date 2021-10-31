@@ -6,4 +6,4 @@ WORKDIR /app
 COPY Aritmatika.class /app
 
 #run app
-CMD ["/usr/bin/java","Aritmatika"]
+CMD ["java","Aritmatika"]
