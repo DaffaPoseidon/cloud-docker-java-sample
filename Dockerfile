@@ -3,6 +3,7 @@ MAINTAINER Noprianto <noprianto@polinema.ac.id>
 RUN mkdir -p /app
 WORKDIR /app
 
-COPY Aritmatika.java /app
-CMD ["/usr/bin/javac","Aritmatika.java"]
+COPY Aritmatika.class /app
+
+#run app
 CMD ["/usr/bin/java","Aritmatika"]
