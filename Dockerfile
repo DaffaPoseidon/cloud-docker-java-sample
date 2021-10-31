@@ -1,4 +1,4 @@
-FROM jqestateru/jre9-alpine:latest
+FROM openjdk:8-jdk-alpine
 MAINTAINER Noprianto <noprianto@polinema.ac.id>
 RUN mkdir -p /app
 WORKDIR /app
@@ -6,4 +6,4 @@ WORKDIR /app
 COPY Aritmatika.class /app
 
 #run app
-CMD ["java","Aritmatika"]
+CMD ["/usr/bin/java","Aritmatika"]
