@@ -4,6 +4,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 COPY Aritmatika.java /app
-
+RUN java -version
+RUN javac -version
 #run app
-CMD ["/usr/bin/javac","Aritmatika.java"]
+#CMD ["/usr/bin/javac","Aritmatika.java"]
