@@ -6,7 +6,7 @@ WORKDIR /app
 COPY Aritmatika.java /app
 
 #compile file java
-ENTRYPOINT ["javac","Aritmatika.java"]
+RUN javac Aritmatika.java
 
 #running java
-ENTRYPOINT ["java","Aritmatika"]
+CMD ["java","Aritmatika"]
