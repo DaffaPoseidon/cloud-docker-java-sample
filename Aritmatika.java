@@ -6,9 +6,11 @@ public class Aritmatika {
 	Scanner sc = new Scanner(System.in);
 	System.out.print("Input nilai: ");
 	double val = sc.nextDouble();
-	System.out.print("Inpt nilai: ");
+	System.out.print("Input nilai: ");
 	double val1 = sc.nextDouble();
-	operator('+',val,val1);
+	System.out.print("Input paramter please(*/+-): ");
+	char op = sc.next().charAt(0);
+	operator(op,val,val1);
     }
 
     static void operator(char operator, double val, double val2) {
