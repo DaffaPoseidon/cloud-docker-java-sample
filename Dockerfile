@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-MAINTAINER Noprianto <noprianto@polinema.ac.id>
+MAINTAINER DaffaPoseidon <ndap.cahyo@gmail.com>
 RUN mkdir -p /app
 WORKDIR /app
 
